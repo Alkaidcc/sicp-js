@@ -9,9 +9,13 @@ export const themeConfig:DefaultTheme.Config = {
   },
   sidebar: [
     {
-      text: '前言',
+      text: '前言和序言',
       items: [
         { text: '前言', link: '/zh/foreword' },
+        { text: '前言补充', link: '/zh/foreword-supplement'},
+        { text: '序言', link: '/zh/preface'},
+        { text: '序言补充', link: '/zh/preface-supplement'},
+        { text: '致谢', link: '/zh/acknowledgements'}
       ]
     }
   ],

@@ -1,0 +1,4 @@
+/* for MathJax display workaround */
+.MathJax > svg {
+  display: inline
+}
