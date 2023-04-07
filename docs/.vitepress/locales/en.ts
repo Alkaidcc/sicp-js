@@ -10,6 +10,7 @@ export const themeConfig:DefaultTheme.Config = {
   sidebar: [
     {
       text: 'Foreword & Preface',
+      collapsed: false,
       items: [
         { text: 'Foreword', link: '/foreword' },
         { text: 'ForewordSupplement', link: '/foreword-supplement' },
@@ -20,10 +21,12 @@ export const themeConfig:DefaultTheme.Config = {
     },
     {
       text: '1 Building Abstractions with Functions',
+      collapsed: false,
       link: '/1',
       items: [
         {
           text: '1.1 The Elements of Programming',
+          collapsed: false,
           link: '/1.1',
           items: [
             { text: '1.1.1 Expressions', link: '/1.1.1' },
@@ -38,6 +41,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '1.2 Functions and the Processes They Generate',
+          collapsed: false,
           link: '/1.2',
           items: [
             { text: '1.2.1 Linear Recursion and Iteration', link: '/1.2.1' },
@@ -50,6 +54,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '1.3 Formulating Abstractions with Higher-Order Functions',
+          collapsed: false,
           link: '/1.3',
           items: [
             { text: '1.3.1 Functions as Arguments', link: '/1.3.1' },
@@ -62,10 +67,12 @@ export const themeConfig:DefaultTheme.Config = {
     },
     {
       text: '2 Building Abstractions with Data',
+      collapsed: false,
       link: '/2',
       items: [
         {
           text: '2.1 Introduction to Data Abstraction',
+          collapsed: false,
           link: '/2.1',
           items: [
             { text: '2.1.1 Example: Arithmetic Operations for Rational Numbers', link: '/2.1.1' },
@@ -76,6 +83,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '2.2 Hierarchical Data and the Closure Property',
+          collapsed: false,
           link: '/2.2',
           items: [
             { text: '2.2.1 Representing Sequences', link: '/2.2.1' },
@@ -86,6 +94,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '2.3 Symbolic Data',
+          collapsed: false,
           link: '/2.3',
           items: [
             { text: '2.3.1 Strings', link: '/2.3.1'},
@@ -96,6 +105,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '2.4 Multiple Representations for Abstract Data',
+          collapsed: false,
           link: '/2.4',
           items: [
             { text: '2.4.1 Representations for Complex Numbers', link: '/2.4.1'},
@@ -105,6 +115,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '2.5 Systems with Generic Operations',
+          collapsed: false,
           link: '/2.5',
           items: [
             { text: '2.5.1 Generic Arithmetic Operations', link: '/2.5.1'},
@@ -116,10 +127,12 @@ export const themeConfig:DefaultTheme.Config = {
     },
     {
       text: '3 Modularity, Objects, and State',
+      collapsed: false,
       link: '/3',
       items: [
         {
           text: '3.1 Assignment and Local State',
+          collapsed: false,
           link: '/3.1',
           items: [
             { text: '3.1.1 Local State Variables', link: '/3.1.1'},
@@ -129,6 +142,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '3.2 The Environment Model of Evaluation',
+          collapsed: false,
           link: '/3.2',
           items: [
             { text: '3.2.1 The Rules for Evaluation', link: '/3.2.1'},
@@ -139,6 +153,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '3.3 Modeling with Mutable Data',
+          collapsed: false,
           link: '/3.3',
           items: [
             { text: '3.3.1 Mutable List Structure', link: '/3.3.1'},
@@ -150,6 +165,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '3.4 Concurrency: Time Is of the Essence',
+          collapsed: false,
           link: '/3.4',
           items: [
             { text: '3.4.1 The Nature of Time in Concurrent Systems', link: '/3.4.1'},
@@ -158,6 +174,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '3.5 Streams',
+          collapsed: false,
           link: '/3.5',
           items: [
             {text: '3.5.1 Streams Are Delayed Lists', link: '/3.5.1'},
@@ -171,10 +188,12 @@ export const themeConfig:DefaultTheme.Config = {
     },
     {
       text: '4 Metalinguistic Abstraction',
+      collapsed: false,
       link: '/4',
       items: [
         {
           text: '4.1 The Metacircular Evaluator',
+          collapsed: false,
           link: '/4.1',
           items: [
             { text: '4.1.1 The Core of the Evaluator', link: '/4.1.1'},
@@ -188,6 +207,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '4.2 Lazy Evaluation',
+          collapsed: false,
           link: '/4.2',
           items: [
             { text: '4.2.1 Normal Order and Applicative Order', link: '/4.2.1'},
@@ -197,6 +217,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '4.3 Nondeterministic Computing',
+          collapsed: false,
           link: '/4.3',
           items: [
             { text: '4.3.1 Search and amb', link: '/4.3.1'},
@@ -206,6 +227,7 @@ export const themeConfig:DefaultTheme.Config = {
         },
         {
           text: '4.4 Logic Programming',
+          collapsed: false,
           link: '/4.4',
           items: [
             { text: '4.4.1 Deductive Information Retrieval', link: '/4.4.1'},
@@ -218,27 +240,65 @@ export const themeConfig:DefaultTheme.Config = {
     },
     {
       text: '5 Computing with Register Machines',
+      collapsed: false,
       link: '/5',
       items: [
         {
           text: '5.1 Designing Register Machines',
+          collapsed: false,
           link: '/5.1',
+          items: [
+            { text: '5.1.1 A Language for Describing Register Machines', link: '/5.1.1'},
+            { text: '5.1.2 Abstraction in Machine Design', link: '/5.1.2'},
+            { text: '5.1.3 Subroutines', link: '/5.1.3'},
+            { text: '5.1.4 Using a Stack to Implement Recursion', link: '/5.1.4'},
+            { text: '5.1.5 A Instruction Summary', link: '/5.1.5'},
+          ]
         },
         {
           text: '5.2 A Register-Machine Simulator',
+          collapsed: false,
           link: '/5.2',
+          items: [
+            { text: '5.2.1 The Machine Model', link: '/5.2.1'},
+            { text: '5.2.2 The Assembler', link: '/5.2.2'},
+            { text: '5.2.3 Instructions and Their Execution Functions', link: '/5.2.3'},
+            { text: '5.2.4 Monitoring Machine Performance', link: '/5.2.4'},
+          ]
         },
         {
           text: '5.3 Storage Allocation and Garbage Collection',
+          collapsed: false,
           link: '/5.3',
+          items: [
+            { text: '5.3.1 Memory as Vectors', link: '/5.3.1'},
+            { text: '5.3.2 Maintaining the Illusion of Infinite Memory', link: '/5.3.2'},
+          ]
         },
         {
           text: '5.4 The Explicit-Control Evaluator',
+          collapsed: false,
           link: '/5.4',
+          items: [
+            { text: '5.4.1 The Dispatcher and Basic Evaluation', link: '/5.4.1'},
+            { text: '5.4.2 Evaluating Function Applications', link: '/5.4.2'},
+            { text: '5.4.3 Blocks, Assignments, and Declarations', link: '/5.4.3'},
+            { text: '5.4.4 Running the Evaluator', link: '/5.4.4'},
+          ]
         },
         {
           text: '5.5 Compilation',
+          collapsed: false,
           link: '/5.5',
+          items: [
+            { text: '5.5.1 Structure of the Compiler', link: '/5.5.1'},
+            { text: '5.5.2 Compiling Components', link: '/5.5.2'},
+            { text: '5.5.3 Compiling Applications and Return Statements', link: '/5.5.3'},
+            { text: '5.5.4 Compiling Instruction Sequences', link: '/5.5.4'},
+            { text: '5.5.5 An Example of Compiled Code', link: '/5.5.5'},
+            { text: '5.5.6 Lexical Addressing', link: '/5.5.6'},
+            { text: '5.5.7 Interfacing Compiled Code to the Evaluator', link: '/5.5.7'},
+          ]
         }
       ]
     },
