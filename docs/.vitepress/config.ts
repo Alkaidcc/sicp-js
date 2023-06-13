@@ -12,6 +12,11 @@ export default defineConfig({
     root: en,
     zh: zhCN,
   },
+  themeConfig: {
+    search:{
+      provider: 'local'
+    }
+  },
   markdown: {
     config: (md) => {
       md.use(mathjax3).use(MarkdownItFootnote).use(implicitFigures,{figcaption: true});
